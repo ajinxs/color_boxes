@@ -19,5 +19,5 @@ You may also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-About Project
+### About Project
 This project is the about showing boxes with color and whne you click on one of them all the boxes change color to some other color. 
