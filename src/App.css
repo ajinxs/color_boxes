@@ -1,0 +1,507 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.box_one{
+  width: 409px;
+  height: 402px;
+  background-color: #0089e0;
+  margin-top: 20px;
+  margin-left: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fefeff;  
+  box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.29);
+  -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.29); 
+}
+
+.box_two{
+  width: 400px;
+  height: 200px;
+  background-color: #e53458;
+  margin-top: 20px;
+  margin-left: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fefeff;  
+  box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.29);
+  -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.29); 
+}
+
+.box_three{
+  width: 190px;
+  height: 192px;
+  background-color: #8c7a5b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fefeff;  
+  position: absolute;
+  margin-top: 230px;
+  margin-left: 230px;
+  box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.29);
+  -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.29); 
+}
+
+.box_four{
+  width: 190px;
+  height: 192px;
+  background-color: #b85e61;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fefeff;  
+  position: absolute;
+  margin-top: 230px;
+  margin-left: 650px;
+  box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.29);
+  -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.29); 
+}
+
+.box_five{
+  width: 250px;
+  height: 8vh;
+  background-color: #7f00cb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fefeff;  
+  position: absolute;
+  margin-top: 435px;
+  margin-left: -555px;
+  box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.29);
+  -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.29); 
+}
+
+
+.box_six{
+  width: 250px;
+  height: 15vh;
+  background-color: #00b19f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fefeff;  
+  position: absolute;
+  margin-top: 527px;
+  margin-left: -555px;
+  box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.29);
+  -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.29); 
+}
+
+.box_seven{
+  width: 340px;
+  height: 245px;
+  background-color: #007a67;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fefeff;  
+  position: absolute;
+  margin-top: 435px;
+  margin-left: 65px;
+  box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.29);
+  -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.29); 
+}
+
+.box_eight{
+  width: 202px;
+  height: 17vh;
+  background-color: #6953fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fefeff;  
+  position: absolute;
+  margin-top: 435px;
+  margin-left: 638px;
+  box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.29);
+  -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.29); 
+}
+
+.box_nine{
+  width: 202px;
+  height: 6vh;
+  background-color: #475c6d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fefeff;  
+  position: absolute;
+  margin-top: 620px;
+  margin-left: 638px;
+  box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.29);
+  -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.29); 
+}
+
+@media screen and (max-width : 2560px) {
+
+  .box_one{
+    width: 392px;
+    margin-left: 17px;
+    height: 402px;
+  }
+
+  .box_two{
+    width: 400px;
+    margin-left: 32px;
+  }
+
+  .box_five{
+    height: 91px;
+  }
+
+  .box_six{
+    height: 140px;
+    margin-top: 539px;
+  }
+
+  .box_eight{
+    height: 160px;
+    margin-left: 638px;
+  }
+
+  .box_nine{
+    height: 67px;
+    margin-top: 612px;
+  }
+}
+
+
+@media screen and (max-width : 1440px) {
+
+  .box_one{
+    width: 391px;
+    margin-left: 22px;
+  }
+
+  .box_two{
+    width: 400px;
+    margin-left: 30px;
+    margin-right: 6px;
+  }
+  
+  .box_five{
+    height: 83px
+  }
+
+  .box_six{
+    height: 119px;
+    margin-top: 530px;
+  }
+
+  .box_seven{
+    height: 213px;
+    margin-top: 435px;
+  }
+
+  .box_nine{
+    height: 64px;
+    margin-top: 585px;
+  }
+
+  .box_eight{
+    height: 139px;
+  }
+}
+
+
+@media screen and (max-width : 768px) {
+
+  .box_one{
+    width: 375px;
+    margin-left: 14px;
+  }
+
+  .box_two{
+    width: 395px;
+    margin-left: 26px;
+    margin-right: 10px;
+  }
+
+  .box_three{
+    width: 173px;
+    margin-left: 186px;
+  }
+
+  .box_four{
+    width: 170px;
+    margin-left: 571px;
+  }
+
+  .box_five{
+    width: 213px;
+    margin-left: -530px
+  }
+
+  .box_six{
+    width: 213px;
+    margin-left: -529px;
+  }
+
+  .box_seven{
+    width: 307px;
+    margin-left: 18px;
+  }
+
+  .box_eight{
+    width: 192px;
+    margin-left: 550px
+  }
+
+  .box_nine{
+    width: 192px;
+    margin-left: 549px;
+  }
+}
+
+@media screen and (max-width : 600px) {
+  .box_one{
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    margin-left: 28px;
+  }
+
+  .box_two{
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 38px
+  }
+
+  .box_three{
+    width: 49%;
+    height: 80px;
+    margin-top: 104px;
+    margin-left: -276px;
+  }
+
+  .box_four{
+    width: 49%;
+    height: 80px;
+    margin-top: 104px;
+    margin-left: 334px
+  }
+
+  .box_five{
+    width: 49%;
+    height: 80px;
+    margin-top: 374px;
+    margin-left: -278px;
+  }
+
+  .box_six{
+    width: 49%;
+    height: 80px;
+    margin-top: 469px;
+    margin-left: -278px;
+  }
+
+  .box_seven{
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    margin-top: 286px;
+    margin-left: 28px;
+  }
+
+  .box_eight{
+    width: 49%;
+    height: 80px;
+    margin-top: 374px;
+    margin-left: 352px
+  }
+
+  .box_nine{
+    width: 49%;
+    height: 100px;
+    margin-top: 583px;
+    margin-left: 382px;
+  }
+}
+
+@media screen and (max-width : 425px) {
+  .box_one{
+    width: 95%;
+    height: 70px;
+    margin-left: 2px;
+  }
+
+  .box_two{
+    width: 95%;
+    height: 70px;
+    margin-top: 184px;
+    margin-left: 9px;
+  }
+
+  .box_three {
+    width: 45%;
+    height: 70px;
+    margin-top: 100px;
+    margin-left: -209px;
+  }
+
+  .box_four{
+    width: 45%;
+    height: 70px;
+    margin-top: 100px;
+    margin-left: 214px;
+  }
+
+  .box_five{
+    width: 45%;
+    height: 70px;
+    margin-top: 349px;
+    margin-left: -209px;
+  }
+
+  .box_six{
+    width: 45%;
+    height: 70px;
+    margin-top: 431px;
+    margin-left: -209px;
+  }
+
+  .box_seven{
+    width: 95%;
+    height: 70px;
+    margin-top: 265px;
+    margin-left: -1px
+  }
+
+  .box_eight{
+    width: 45%;
+    height: 70px;
+    margin-top: 349px;
+    margin-left: 211px;
+  }
+
+  .box_nine{
+    width: 45%;
+    height: 70px;
+    margin-top: 432px;
+    margin-left: 209px;
+  }
+}
+
+@media screen and (max-width : 375px) {
+  .box_one{
+    width: 95%;
+    margin-left: 1px;
+  }
+
+  .box_two{
+    margin-left: 11px;
+  }
+
+  .box_three{
+    margin-left: -186px;
+  }
+
+  .box_four{
+    margin-left: 186px;
+  }
+
+  .box_five {
+    width: 44%;
+    height: 80px;
+    margin-left: -190px;
+  }
+
+  .box_six {
+    width: 44%;
+    height: 80px;
+    margin-top: 442px;
+    margin-left: -190px;
+  }
+
+  .box_seven {
+    margin-left: 3px;
+  }
+
+  .box_eight {
+    width: 45%;
+    height: 80px;
+    margin-top: 350px;
+    margin-left: 186px;
+  }
+
+  .box_nine {
+    width: 45%;
+    height: 80px;
+    margin-top: 443px;
+    margin-left: 185px;
+  }
+}
+
+@media screen and (max-width : 320px) {
+  .box_one{
+    height: 70px;
+    margin-left: 2px;
+  }
+
+  .box_two{
+    height: 70px;
+    margin-top: 183px;
+    margin-left: 10px;
+  }
+
+  .box_three{
+    height: 70px;
+    margin-top: 100px;
+    margin-left: -158px;
+  }
+
+  .box_four{
+    height: 70px;
+    margin-top: 100px;
+    margin-left: 161px;
+  }
+
+  .box_five {
+    width: 46%;
+    height: 67px;
+    margin-top:348px;
+    margin-left: -155px;
+  }
+
+  .box_six {
+    width: 46%;
+    height: 67px;
+    margin-top: 427px;
+    margin-left: -154px;
+  }
+
+  .box_seven {
+    height: 70px;
+    margin-top: 265px;
+    margin-left: -1px;
+  }
+
+  .box_eight {
+    width: 45%;
+    height: 67px;
+    margin-top: 348px;
+    margin-left: 164px;
+  }
+
+  .box_nine {
+    height: 67px;
+    margin-top: 428px;
+    margin-left: 163px;
+    margin-left: 162px;
+  }
+}
